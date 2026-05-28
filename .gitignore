@@ -52,10 +52,10 @@ crashlytics-build.properties
 # Asset Bundle output
 AssetBundles/
 
-# Unity Package Manager cache
-[Pp]ackages/
-![Pp]ackages/manifest.json
-![Pp]ackages/packages-lock.json
+# Unity Package Manager cache - ignore everything except manifest and lock files
+Packages/*/
+!Packages/manifest.json
+!Packages/packages-lock.json
 
 # IDE - JetBrains Rider
 .idea/
